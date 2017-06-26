@@ -1,0 +1,15 @@
+{
+    "name": "scroll-manager-demo",
+    "description": "Scroll Manager demo",
+    "author": "Andrzej Dąbrowski <a.r.dabrowski@ratio.team> (http://ratio.team)",
+    "version": "0.1.0",
+
+    "dependencies": {
+        "jquery": "*"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "webpack-stream": "*",
+        "gulp-sass": "*"
+    }
+}

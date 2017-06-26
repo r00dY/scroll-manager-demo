@@ -16,7 +16,7 @@ $(document).ready(function() {
 		ScrollManager.unlockScroll();
 	})
 
-	/* To make website work properlty, all scroll events should be registered by ScrollManager.register method */
+	/* To make website work properly, all scroll events should be registered by ScrollManager.register method */
 	ScrollManager.register(function() {
 		console.log('ScrollManager scroll event: ', $(window).scrollTop());
 	})

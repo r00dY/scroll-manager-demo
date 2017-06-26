@@ -38,6 +38,7 @@ var ScrollEventsManager = function() {
 		if (bodyScrollLocked) { return; }
 		bodyScrollLocked = true;
 
+		/* Lock body scroll blocks all scroll events registered by register method! */
 		this.block();
 
 		var lockScrollPosition = $(window).scrollTop();

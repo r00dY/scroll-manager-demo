@@ -6,12 +6,11 @@
 
 html, body {
 	height: 100%; // this is important -> without this 100% on page-wrapper doesn't work properly;
-	overflow: hidden; // this is important -> it disables bounce effect in Safari when overlay is visible;
 }
 
 body {
 	overflow-y: scroll; // important! When body height is less than viewport, then empty scrollbar will be visible. It prevents browser from changing viewport size when showing / hiding overlay;
-	
+
 	.page-wrapper {
 		&.blocked-scroll {
 			height: 100%;
